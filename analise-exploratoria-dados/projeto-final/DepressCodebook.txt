@@ -1,0 +1,87 @@
+Codebook for the depression study data (Depress.txt)
+
+Variable   Variable                   
+Name       Coding                       Description
+-------------------------------------------------------------------------------
+ID         1 to 294                     Identification number
+                                      
+SEX        1 = Male                     Gender of participant
+           2 = Female                 
+                                      
+AGE        Continuous                   Age in years at last birthday
+                                      
+MARITAL    1 = Never married            Marital status
+           2 = Married                
+           3 = Divorced               
+           4 = Separated              
+           5 = Widowed                
+                                      
+EDUCAT     1 = Less than high school    Education
+           2 = Some high school       
+           3 = Finished high school   
+           4 = Some college           
+           5 = Finished bachelor's    
+               degree                 
+           6 = Finished master's      
+               degree                 
+           7 = Finished doctorate     
+                                      
+EMPLOY     1 = Full time                Employment Status
+           2 = Part time              
+           3 = Unemployed             
+           4 = Retired                
+           5 = Houseperson            
+           6 = In school              
+           7 = Other                  
+                                      
+INCOME     Continuous                   Income in thousands of dollars per year
+                                      
+RELIG      1 = Protestant               Religion
+           2 = Catholic               
+           3 = Jewish                 
+           4 = None                   
+           5 = Other                  
+                                      
+C1--C20    0 = Rarely or none of the    `Please look at this card and tell me 
+               time (less than 1 day)    the number that best describes how 
+           1 = Some or a little of       often you felt or behaved this way 
+               the time (1 or 2 days)    during the past week'. 20 items from
+           2 = Occasionally or a         depression scale (already reflected;
+               moderate amount of the    see text Chapter 3)
+               time (3 or 4 days)     
+           3 = Most or all of the time
+               (5 to 7 days)
+
+CESD       Continuous                    Sum of C1--20 
+                                         0 = lowest level possible
+                                         60 = highest level possible
+                                         
+CASES      0 = Normal
+           1 = Depressed, where 
+               depressed is CESD>=16
+               
+DRINK      1 = Yes                       Regular drinker? 
+           2 = No
+           
+HEALTH     1 = Excellent                 General health? 
+           2 = Good
+           3 = Fair
+           4 = Poor
+           
+REGDOC     1 = Yes                       Have a regular doctor? 
+           2 = No
+           
+TREAT      1 = Yes                       Has a doctor prescribed or recommended 
+           2 = No                        that you take medicine, medical 
+                                         treatments, or change your way of 
+                                         living in such areas as smoking, 
+                                         special diet, exercise, or drinking?
+           
+BEDDAYS    1 = Yes                       Spent entire day(s) in bed in last 
+           0 = No                        two months?
+
+ACUTEILL   1 = Yes                       Any acute illness in last two months?
+           0 = No 
+
+CHRONILL   1 = Yes                       Any chronic illness in last year?
+           0 = No 
